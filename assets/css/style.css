@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --mercury-50: #f8f8f8;
+  --mercury-100: #e8e8e8;
+  --mercury-200: #dcdcdc;
+  --mercury-300: #bdbdbd;
+  --mercury-400: #989898;
+  --mercury-500: #7c7c7c;
+  --mercury-600: #656565;
+  --mercury-700: #525252;
+  --mercury-800: #464646;
+  --mercury-900: #3d3d3d;
+  --mercury-950: #292929;
+
+  /* primary */
+  --primary-color-50: #edf9ff;
+  --primary-color-100: #d6f0ff;
+  --primary-color-200: #b6e7ff;
+  --primary-color-300: #84d9ff;
+  --primary-color-400: #4ac2ff;
+  --primary-color-500: #21a2ff;
+  --primary-color-600: #0983ff;
+  --primary-color-700: #036bf2;
+  --primary-color-800: #0a58ca;
+  --primary-color-900: #0f4b99;
+  --primary-color-950: #0e2e5d;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--mercury-100);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* form label */
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+}
